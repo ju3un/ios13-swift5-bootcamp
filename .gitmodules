@@ -1,0 +1,3 @@
+[submodule "BMI-Calculator-iOS13"]
+	path = BMI-Calculator-iOS13
+	url = https://github.com/appbrewery/BMI-Calculator-iOS13.git
