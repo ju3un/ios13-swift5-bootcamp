@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -104,12 +104,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="answer1Button" destination="oVw-Hl-IRe" id="hmA-NA-XHW"/>
                         <outlet property="answer2Button" destination="HXq-UV-vnb" id="3YY-EQ-NAe"/>
                         <outlet property="answer3Button" destination="tbn-vQ-GyC" id="rFO-vg-5aQ"/>
                         <outlet property="progressBar" destination="TXm-qh-7Xg" id="8D1-7E-C2x"/>
                         <outlet property="questionLabel" destination="rSI-li-mhO" id="cfn-cQ-Whw"/>
                         <outlet property="scoreLabel" destination="IiG-M2-Vgq" id="xRr-bX-xdI"/>
-                        <outlet property="answer1Button" destination="oVw-Hl-IRe" id="hmA-NA-XHW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
