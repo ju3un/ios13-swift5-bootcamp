@@ -127,6 +127,7 @@ extension ChatViewController: UITableViewDataSource {
             cell.label.textColor = UIColor(named: K.BrandColors.lightPurple)
         }
         
+        print("****cell생성: \(indexPath.row)")
         return cell
     }
     
